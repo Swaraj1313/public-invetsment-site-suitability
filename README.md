@@ -1,6 +1,21 @@
 # fstp-site-suitability-
 This project develops a constraint-based geospatial model to identify feasible sites for Faecal Sludge Treatment Plants (FSTPs) under regulatory and operational constraints in rural districts to support poblic investment decisions.
 
+## Overview
+
+This project develops a **constraint-based site suitability model** for identifying feasible locations for Faecal Sludge Treatment Plants (FSTPs) in resource-constrained districts.
+
+Rather than a conventional GIS mapping exercise, the model operationalizes regulatory norms into a spatial decision-support system, enabling evidence-based infrastructure planning.
+
+The analysis highlights trade-offs between regulatory compliance and practical feasibility in siting decentralized sanitation infrastructure.
+
+## What This Project Demonstrates
+
+- Translation of regulatory norms into a spatial decision system  
+- Integration of environmental, social, and logistical constraints  
+- Identification of feasible infrastructure sites under real-world constraints  
+- Trade-offs between compliance requirements and land availability  
+
 ## Analytical Workflow and Outputs
 
 | Step | Output | Purpose |
