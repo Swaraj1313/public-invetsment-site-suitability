@@ -8,6 +8,8 @@
 
 This work implements a **reproducible, open-data geospatial pipeline** for identifying technically feasible land parcels suitable for Fecal Sludge Treatment Plant (FSTP) construction — with Tikamgarh district, Madhya Pradesh as the study area. Rather than treating site selection as a simple land availability problem, the pipeline operationalises a multiple layered constraint model — systematically screening candidate land against regulatory and environmental thresholds: proximity to water bodies, separation from human settlements, and accessibility via the road network. Each layer reflects a real-world institutional or operational requirement that any public infrastructure investment must satisfy. The framework is district-agnostic and generalises beyond FSTP siting to any context where infrastructure placement must navigate overlapping land-use constraints.
 
+### scroll down for images.
+
 The methodology mirrors the spatial siting criteria used in sanitation infrastructure planning under urban WASH programmes (as referenced in World Bank, and CPHEEO guidelines), and is fully automatable across any Indian district boundary available on OpenStreetMap.
 
 Using open access gepspatial data, this pipeline pulls **live, queryable OSM data** — road networks, water features, and built-up areas — and applies a **multi-layer exclusion model** to systematically rule out unsuitable land for criterion like distance from water bodies and habitation before finalising shortlisted candidate sites.
@@ -112,3 +114,38 @@ Any district with OSM coverage will work. Buffer distances and area thresholds c
 
 ### Coordinates
 - CSV file containing site-wise latitude and longitude for validation in Google Maps
+
+- ## Project Workflow (Step-by-Step Outputs)
+
+### Road Network
+![Road Network](outputs/Cell_3_road_network.png)
+
+### District Boundaries
+![District Boundary](outputs/Cell_4_district_boundary.png)
+
+### Water Bodies
+![Water Bodies](outputs/Cell_6_water_bodies.png)
+
+### Water Buffer
+![Water Buffer](outputs/Cell_7_water_buffer.png)
+
+### Settlement Buffer
+![Settlement Buffer](outputs/Cell_8_settlement_buffer.png)
+
+### Combined Exclusion Zones
+![Exclusion](outputs/Cell_9_combined_exclusion.png)
+
+### Suitable Land
+![Suitable Land](outputs/Cell_10_suitable_land.png)
+
+### Candidate Sites (Raw)
+![Candidate Sites](outputs/Cell_11_candidate_sites_raw.png)
+
+### Sites with Road Overlay
+![Sites Roads](outputs/Cell_12_sites_with_roads_overlay.png)
+
+### Filtered Sites
+![Filtered Sites](outputs/Cell_13_final_sites_filtered.png)
+
+### Final FSTP Sites
+![Final Sites](outputs/Cell_14_final_fstp_sites.png)
